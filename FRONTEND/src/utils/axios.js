@@ -52,7 +52,7 @@ import axios from 'axios'
 
 // Common axios instance for all API requests
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api',
+ baseURL: 'https://taskflow-backend-aes2.onrender.com/api',
 })
 
 /*
